@@ -35,15 +35,9 @@ nav{
 }
 .centro{
     text-align: center;
+    margin-bottom: 25px;
 }
-.container{
-    width: 100%;
-    
-}
-.paraisos{
-    display: flex;
-    justify-content: flex-start;
-}
+
 
 .menu{
     display: flex;
@@ -57,12 +51,23 @@ nav{
     text-decoration: none;
     color: black;
 }
- header img{
+.imagen-fondo{
     width: 100%;
     height: 80vh;
+    
 }
+.contenedor-img{
+    width: 100%;
+    height: 100%;
+}
+.img-header{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
 main section img{
-    width:70% ;
+    width:70%;
 }
 .descripcion{
     text-align: center;
@@ -125,23 +130,34 @@ footer{
 }
 .lugares{
     margin-right: 10px;
-    width: 40%;
+    width: 100%;
     
 }
 
+.container{
+    width: 100%;
+  
+}
+.lugares-contenedor1{
+   width: 40%;
+}
 
-.contanosmas{
-    font-size: large;
-    font-weight: 900;
-    font-style: italic;
-    background-color: white;
-    margin-bottom: 10px;
-    text-align: right;
-    width: 33%;
+.paraisos{
+    width: 80%;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    
 }
+.contanosmas{ 
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 10px 40px 40px 40px;
+}
+
+
+
 .nosotros{
     
     font-style: italic;
