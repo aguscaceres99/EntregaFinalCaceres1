@@ -1,0 +1,46 @@
+nav{
+    background-color:$mainColor;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.padre{
+    width: 100%;
+  }
+  .imagenes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .parrafo{
+    font-style: $mainFont;
+    font-weight: 700;
+    
+  }
+  .redes{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: $secondaryColor;
+    height: 25vh;
+}
+.seguinos{
+    text-align: center;
+    color: white;
+    padding: 25px ;
+    
+}
+.contenedorredes{
+    width: 100%;
+    text-align: center;
+}
+.header2{
+  width: 100%;
+}

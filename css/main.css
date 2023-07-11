@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & display=swap");
+p {
+  font-family: "Lato", sans-serif;
+  color: rgb(231, 220, 220);
+  font-size: 1em;
+}
+
+nav {
+  background-color: rgb(231, 220, 220);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.padre {
+  width: 100%;
+}
+
+.imagenes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.parrafo {
+  font-style: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.redes {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(160, 160, 168);
+  height: 25vh;
+}
+
+.seguinos {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.contenedorredes {
+  width: 100%;
+  text-align: center;
+}
+
+.header2 {
+  width: 100%;
+}
+
+.centro {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 100%;
+}
+
+.contanosmas {
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 10px;
+  width: 60%;
+  padding: 10px 40px 40px 40px;
+}
+
+.section-paquetes {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header header header" "sidebar  content content" "footer footer footer";
+  grid-gap: 10px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

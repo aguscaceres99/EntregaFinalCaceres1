@@ -1,0 +1,29 @@
+// variables globales
+
+$mainColor:rgb(231, 220, 220);
+$secondaryColor: rgb(160, 160, 168);
+$keyColor:rgb(211, 211, 187);
+$white:rgb(248, 236, 236);
+
+//fonts
+
+$mainFont:'Lato', sans-serif;
+
+//sizing
+
+$textSm:0.8em;
+$textMd:1em;
+$textLg:1.6em;
+$textLg:2em;
+
+//weigth
+
+$textBold:600;
+$textLight:300;
+$textRegular:400;
+
+p{
+    font-family: $mainFont;
+    color: $mainColor;
+    font-size: $textMd;
+}
