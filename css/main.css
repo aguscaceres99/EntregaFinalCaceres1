@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & display=swap");
 p {
   font-family: "Lato", sans-serif;
@@ -109,6 +110,16 @@ footer {
 .grid-container img {
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Estilos para pantallas con un ancho máximo de 600px */
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para pantallas con un ancho mínimo de 601px y un ancho máximo de 1024px */
+}
+@media only screen and (min-width: 1025px) {
+  /* Estilos para pantallas con un ancho mínimo de 1025px */
 }
 
 /*# sourceMappingURL=main.css.map */
