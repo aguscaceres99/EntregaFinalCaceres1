@@ -27,6 +27,11 @@ nav{
     justify-content: start;
     align-items: center;
 }
+
+.imgheader{
+    width: 100%;
+}
+
 .contenedormenu{
     display: flex;
     flex-direction: row;
