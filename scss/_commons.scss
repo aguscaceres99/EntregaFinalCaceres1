@@ -1,46 +1,43 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p{ color: rgb(62, 62, 92); }
+
 nav{
-    background-color:$mainColor;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: rgb(248, 245, 245);
+  
 }
-.padre{
-    width: 100%;
-  }
-  .imagenes{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 70%;
-  }
-  .parrafo{
-    font-style: $mainFont;
-    font-weight: 700;
-    
-  }
-  .redes{
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
-a{
-    text-decoration: none;
+.link{
+  text-decoration: none;
+  color: black;
 }
 footer{
-    background-color: $secondaryColor;
-    height: 25vh;
+  background-color: #16161a;
+  height: 25vh;
 }
 .seguinos{
-    text-align: center;
-    color: white;
-    padding: 25px ;
-    
+  text-align: center;
+  color: white;
+  padding: 25px ;
+  
 }
 .contenedorredes{
-    width: 100%;
-    text-align: center;
-}
-.header2{
   width: 100%;
+  text-align: center;
+}
+.redes{
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }

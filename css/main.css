@@ -1,46 +1,40 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & display=swap");
 p {
   font-family: "Lato", sans-serif;
   color: rgb(231, 220, 220);
   font-size: 1em;
 }
 
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: rgb(62, 62, 92);
+}
+
 nav {
-  background-color: rgb(231, 220, 220);
-  width: 100%;
+  background-color: rgb(248, 245, 245);
+}
+
+.logo {
   display: flex;
+  flex-direction: row;
+  justify-content: start;
   align-items: center;
-  justify-content: space-between;
 }
 
-.padre {
-  width: 100%;
-}
-
-.imagenes {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 70%;
-}
-
-.parrafo {
-  font-style: "Lato", sans-serif;
-  font-weight: 700;
-}
-
-.redes {
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a {
+.link {
   text-decoration: none;
+  color: black;
 }
 
 footer {
-  background-color: rgb(160, 160, 168);
+  background-color: #16161a;
   height: 25vh;
 }
 
@@ -55,8 +49,57 @@ footer {
   text-align: center;
 }
 
-.header2 {
+.redes {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgheader {
   width: 100%;
+}
+
+.titulo {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  color: rgb(26, 27, 23);
+  margin: 25px;
+}
+
+.contenedormenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.padre {
+  width: 100%;
+}
+
+.img1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prueba1, .prueba2, .prueba3 {
+  width: 33%;
+  text-align: center;
+}
+
+.imagenes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
 }
 
 .centro {
@@ -64,8 +107,25 @@ footer {
   margin-bottom: 25px;
 }
 
+.lugares {
+  margin-right: 10px;
+  width: 100%;
+}
+
 .container {
   width: 100%;
+}
+
+.lugares-contenedor1 {
+  width: 40%;
+}
+
+.paraisos {
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .contanosmas {
@@ -76,6 +136,11 @@ footer {
   padding: 10px 40px 40px 40px;
 }
 
+.lugares-visita {
+  display: flex;
+  flex-direction: column;
+}
+
 .section-paquetes {
   width: 80%;
   display: flex;
@@ -83,6 +148,68 @@ footer {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+}
+
+.maximo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 300px;
+  height: 475px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.contenedorimagen {
+  width: 100%;
+  height: 200px;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.detallescontenedor {
+  height: 150px;
+  border-bottom: 1px solid rgb(169, 169, 169);
+  padding: 15px;
+}
+
+.detallescontenedor > h2 {
+  margin-bottom: 5px;
+}
+
+.detallescontenedor > p {
+  font-size: 13px;
+}
+
+.fecha {
+  font-weight: 800;
+}
+
+.contenedorprecio {
+  padding: 15px;
+}
+
+.contenedorprecio > p {
+  font-size: 13px;
+  color: rgb(88, 88, 88);
+}
+
+.contenedorprecio > h3 {
+  margin: 5px 0;
+}
+
+.paquetes {
+  text-align: center;
 }
 
 .grid-container {
@@ -110,6 +237,32 @@ footer {
 .grid-container img {
   width: 100%;
   height: 100%;
+}
+
+.escribir {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: large;
+}
+
+.nosotros {
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sobrelaagencia {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.contacto {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
