@@ -7,3 +7,5 @@ Posteriormente, quiero seguir adquiriendo experiencia en el tema y tambien en ot
 El proyecto cuenta con html 5, bootstrap, sass y SEO
 
 Ya me encuentro en mis inicios con Javascript para seguir adquiriendo conocimientos
+
+Pagina de netfly https://magnificent-kitten-c84fa9.netlify.app/
